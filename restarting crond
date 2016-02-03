@@ -1,0 +1,2 @@
+[root@localhost Documents]# service crond restart
+Redirecting to /bin/systemctl restart  crond.service
