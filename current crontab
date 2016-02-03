@@ -6,3 +6,8 @@ crontab: no changes made to crontab
 *       *       *       *       *       /home/Prodigy2501/Documents/first.sh
 ~                                                                                                                                                                                                
 ~                                                                              
+
+
+[root@localhost Documents]# crontab -u Prodigy2501 -l
+#MIN	HOUR	DOM	MON	DOW	CMD
+*	*	*	*	*	/home/Prodigy2501/Documents/first.sh
